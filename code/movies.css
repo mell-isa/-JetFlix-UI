@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+    text-decoration: 0;
+}
+
+.header{
+    width: 100%;
+    display: block;
+    height: 80px;
+   
+}
+
+.inner{
+    width: 88%;
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.logo{
+    height: 100%;
+    display: table;
+    float: left;
+    color: red;
+}
+
+.logo h1{
+    color: red;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 32px;
+    font-weight:200;
+}
+
+.jetplik{
+  color: red;
+}
+
+.nav{
+    float: right;
+    height: 100%;
+}
+
+.nav a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+}
+
+.nav a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: black;
+    font-size: 24px;
+    margin-left: 0px;
+}
+
+.movies{
+    color: red !important;
+    text-decoration: underline;
+}
+
+i{
+    font-size: 45px;
+}
+
+.jumbotron{
+    padding: 10px;
+    display: block;
+    margin: auto;
+    height: auto;
+    color: rgb(189, 187, 186);
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+.jumbo{
+    background-color: rgb(36, 35, 35);
+    color: rgb(189, 187, 186);
+    padding: 2 rem;
+    font-size: 17px;
+    width: 67%;
+    display: block;
+    margin: auto;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.img{
+    margin: 15px 70px;
+}
+
+.tron{
+  width: 90%;
+}
+.isi{
+    vertical-align: top;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 12px;
+}
+
+.way{
+    margin-top: 0px;
+    font-size: 45px;
+}
+
+.more{
+    margin-top: 90px;
+    float: right;
+    color: rgb(247, 0, 0);
+}
+
+.kategori{
+    margin-left: 15px;
+}
+
+.imgg{
+    width: 90%;
+    height: 550px;
+    /* border: 1px solid red; */
+}
+
+.scroll-container{
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 27%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    padding: 0 1rem 1rem;
+}
+
+.media-element{
+    display: grid;
+    gap: 2rem;
+    grid-template-rows: min-content;
+    padding: 1rem;
+    
+}
+
+.media-element p{
+    text-align: center;
+    font-size: 22px;
+}
+
+.footer{
+    margin-top: 5px;
+    /* width: 100%; */
+    padding: 20px 2%;
+    display: flex;
+    margin-left: 75px;
+  }
+  
+  .footer div h3{
+    font-weight: 100px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  .col-1 {
+   
+    flex-grow: 3;
+    font-size: 33px;
+    color: rgba(255, 0, 0, 1);
+  }
+  
+  .col-2{
+    flex-grow: 3;
+    padding: 5px;
+  }
+  
+  .col-2 p{
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .social{
+    cursor: pointer;
+    margin-right: 1px;
+  }
+  
+  .chat{
+    margin-left: 45px;
+    cursor: pointer;
+  }
+  
+  .hubungi{
+    flex-grow: 3;
+  }
+  
+  .pertanyaan{
+    margin-right: 30px;
+  }
+  
+  .hitam {
+   background-color: black;
+   height: 30px;
+    
+    
+   /* background-color: rgba(0, 0, 0, 1);
+    padding: 1px;
+    bottom: 0px;
+    width: 100%;
+  */
+  }
+  
+  .hitam p {
+    color: aliceblue;
+    text-align: center;
+    vertical-align: auto;
+  }
+
+  @media only screen and (max-width: 845px) {
+    .nav a li{
+      font-size: 15px;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+  .logo h1{
+    font-size: 24px;
+  }
+  .nav a li{
+    font-size: 12px;
+  }
+  i{
+    font-size: 30px;
+  }
+  .nav a{
+    padding: 0 10px;
+  }
+
+  .imgg{
+    height: 300px;
+  }
+
+  .media-element p{
+    font-size: 15px;
+  }
+  .footer{
+    /* width: 100%; */
+    margin-left: 10px;
+    font-size: 10px;
+} 
+.footer div h3{
+    font-size: 10px;
+}
+.social{
+    width: 40%;
+}
+.chat{
+    width: 40%;
+    margin-right: 2%;
+}
+.hubungi{
+    margin-left: 5%;
+}
+.jumbotron{
+  font-size: 15px;
+}
+.way{
+  font-size: 20px;
+  margin: 0;
+}
+.jake{
+  font-size: 15px;
+  margin: 0;
+}
+.tron{
+  margin-left: 40%;
+  text-align: center;
+}
+.isi{
+  margin: 0px;
+}
+.more{
+  margin-top: 5px;
+}
+.br{
+  display: none;
+}
+
+  
+}
+
+@media only screen and (max-width: 535px) {
+  .nav a li{
+    font-size: 10px;
+  }
+  .logo h1{
+    font-size: 18px;
+  }
+  .imgg{
+    height: 150px;
+  }
+  .col-1{
+    display: none;
+  }
+  .tron{
+    width: 40%;
+  }
+
+}
+
+@media only screen and (max-width: 405px) {
+  .col-2{
+    font-size: 7px;
+  }
+  .footer div h3{
+    font-size: 8px;
+  }
+  .chat{
+    width: 20%;
+  }
+  .imgg{
+    height: 120px;
+    width: 100%;
+  }
+  .kategori{
+    font-size: 15px;
+  }
+  .nav a li{
+    font-size: 8px;
+  }
+  .logo h1{
+    font-size: 12px;
+  }
+  i{
+    font-size: 15px;
+  }
+  .tron{
+    margin-left: 25%;
+  }
+  .jumbotron{
+    font-size: 11px;
+  }
+  .way{
+    font-size: 12px;
+  }
+  .jake{
+    font-size: 10px;
+  }
+  .nav a{
+    padding: 0 5px;
+  }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="signup.css">
+  <script src="script_su.js" defer></script> 
+</head>
+
+<body>
+  <a href="/code/home.html"><h1 class="jetflix">JetFlix</h1> </a>
+  <hr>  
+  
+  <div>
+  <img alt="" class="img" src="https://static.overlay-tech.com/assets/f350571e-fafe-4a01-952b-4bbfa1d950d9.png"/>
+<form action="" method="get" onsubmit="validateform(event)" id="regisform">
+
+    <label for="name" class="label">Masukkan nama anda</label>
+    <br>
+    <input type="text" name="name" id="name" class="input">
+    <br>
+
+    <label for="username" class="label">Username</label> <br>
+    <input type="text" name="username" id="username" class="input">
+    <br>
+
+    <label for="password" class="label">Masukkan password</label> <br>
+    <input type="password" name="password" id="password" class="input">
+    <br>
+
+    <label for="confirm" class="label">Konfirmasi Password</label> <br>
+    <input type="password" name="confirm" id="confirm" class="input">
+    <br>
+
+    <p class="gender">Pilih gender anda</p>
+    <input type="radio" name="gender" id="male" >
+    <label for="male" class="label">Laki-laki</label>
+    <input type="radio" name="gender" id="female" >
+    <label for="female" class="label">Perempuan</label>
+    <br>
+
+    <label for="date" class="label">Masukkan tanggal lahir anda</label> <br>
+    <input type="date" name="date" id="date" class="input">
+    <br>
+
+    <div class="cek">
+      <input type="checkbox" name="agree" id="agree">
+       <label for="agree" class="label">Saya telah membaca dan menyetujui ketentuan pelayanan dan perjanjian privasi dari aplikasi ini.</label>
+    </div>
+    
+    <p id="error"></p>
+
+    <button type="submit">Daftar</button>
+  </form>
+  <br> <br><br><br><br><br>
+  </div>
+  
+  <hr>
+  <div class="footer">
+    <div class="col-1">
+      <h3>JetFlix</h3>
+    </div>
+    <div class="col-2">
+      <h3>Ketentuan Pelayanan</h3>
+      <p>Perjanjian privasi</p>
+      <p>Ketentuan Pelayanan</p>
+      <p>Kebijakan Cookie</p>
+    </div>
+    <div class="hubungi">
+      <h3 class="h33">Hubungi Kami</h3>
+      <img alt="" class="social" src="https://static.overlay-tech.com/assets/59e08f69-311d-47cb-bbca-25bbbf73845a.svg" />
+    </div>
+    <div class="pertanyaan">
+      <h3>Memiliki Pertanyaan?</h3>
+      <img alt="" class="chat" src="https://static.overlay-tech.com/assets/8ce9946a-2212-48d5-af3d-f234523c9edd.svg" />
+    </div>
+
+  </div>
+  
+  <div class="hitam">
+    <p class="dilindungi"> © 2023 JetFlix. Seluruh hak cipta dilindungi undang-undang.</p>
+  </div>
+
+</body>
+</html>

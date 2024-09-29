@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+    text-decoration: 0;
+}
+
+.header{
+    width: 100%;
+    display: block;
+    height: 80px;
+   
+}
+
+.inner{
+    width: 88%;
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.logo{
+    height: 100%;
+    display: table;
+    float: left;
+    color: red;
+}
+
+.logo h1{
+    color: red;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 32px;
+    font-weight:200;
+}
+
+.jetplik{
+  color: red;
+}
+
+.nav{
+    float: right;
+    height: 100%;
+}
+
+.nav a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+}
+
+.nav a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: black;
+    font-size: 24px;
+    margin-left: 0px;
+}
+
+i{
+    font-size: 45px;
+}
+
+.container{
+    margin: 15px 0 0 0;
+    text-align: center;
+    /* display: block; */
+    position: relative;
+    color: rgb(248, 248, 248);
+}
+
+.bottom-left{
+    font-size: 20px;
+    position: absolute;
+    bottom: 8px;
+    margin-left: 30%;
+}
+
+.bottom-right{
+    font-size: 20px;
+    position: absolute;
+    bottom: 8px;
+    right: 30%; 
+}
+
+#photo{
+  width: 43%;
+}
+
+.tekks{
+    font-size: 20px;
+    margin: 15px 15px 15px 15px;
+    letter-spacing: 1px;
+}
+
+.scroll-container{
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 35%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    padding: 0 1rem 1rem;
+}
+
+.media-element{
+    display: grid;
+    gap: 2rem;
+    grid-template-rows: min-content;
+    padding: 1rem;
+    
+}
+
+.imgg{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  vertical-align: middle;
+}
+
+.footer{
+    margin-top: 5px;
+    /* width: 100%; */
+    padding: 20px 2%;
+    display: flex;
+    margin-left: 75px;
+  }
+  
+  .footer div h3{
+    font-weight: 100px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  .col-1 {
+   
+    flex-grow: 3;
+    font-size: 33px;
+    color: rgba(255, 0, 0, 1);
+  }
+  
+  .col-2{
+    flex-grow: 3;
+    padding: 5px;
+  }
+  
+  .col-2 p{
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .social{
+    cursor: pointer;
+    margin-right: 1px;
+  }
+  
+  .chat{
+    margin-left: 45px;
+    cursor: pointer;
+  }
+  
+  .hubungi{
+    flex-grow: 3;
+  }
+  
+  .pertanyaan{
+    margin-right: 30px;
+  }
+  
+  .hitam {
+   background-color: black;
+   height: 30px;
+    
+    
+   /* background-color: rgba(0, 0, 0, 1);
+    padding: 1px;
+    bottom: 0px;
+    width: 100%;
+  */
+  }
+  
+  .hitam p {
+    color: aliceblue;
+    text-align: center;
+    vertical-align: auto;
+  }
+
+@media only screen and (max-width: 845px) {
+    .nav a li{
+      font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo h1{
+    font-size: 24px;
+  }
+  .nav a li{
+    font-size: 12px;
+  }
+  i{
+    font-size: 30px;
+  }
+  .nav a{
+    padding: 0 10px;
+  }
+  .footer{
+    /* width: 100%; */
+    margin-left: 10px;
+    font-size: 10px;
+} 
+.footer div h3{
+    font-size: 10px;
+}
+.social{
+    width: 40%;
+}
+.chat{
+    width: 40%;
+    margin-right: 2%;
+}
+.hubungi{
+    margin-left: 5%;
+}
+.tekks{
+  font-size: 15px;
+}
+.bottom-left{
+  font-size: 10px;
+
+}
+.bottom-right{
+  font-size: 10px;
+  
+}
+.imgg{
+  height: 200px;
+}
+@media only screen and (max-width: 490px) {
+  .bottom-left{
+    font-size: 9px;
+  
+  }
+
+  .bottom-right{
+    font-size: 9px;
+   
+  }
+  .nav a li{
+    font-size: 10px;
+  }
+  .logo h1{
+    font-size: 18px;
+  }
+  .imgg{
+    height: 150px;
+  }
+  .col-1{
+    display: none;
+  }
+  .imgg{
+    width: 100%;
+    height: 130px;
+  }
+  .tekks{
+    font-size: 11px;
+  }
+}
+}
